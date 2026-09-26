@@ -1,0 +1,289 @@
+sector,subsector,org,host,source
+bank,credit-foncier/finance-co,asian,www.advancefin.com,DPA protected institutions list
+bank,commercial,bbl,www.bangkokbank.com,DPA protected institutions list
+bank,foreign-branch,bnpparibas,www.apac.bnpparibas,DPA protected institutions list
+bank,commercial,boc,www.bankofchina.co.th,DPA protected institutions list
+bank,foreign-branch,bofa,www.bankofamerica.com,DPA protected institutions list
+bank,credit-foncier/finance-co,capitalinkcf,www.capitallink.co.th,DPA protected institutions list
+bank,commercial,cimbthai,www.cimbthai.com,DPA protected institutions list
+bank,foreign-branch,citibank,www.citibank.co.th,DPA protected institutions list
+bank,commercial,clicx,www.clicxbank.com,DPA protected institutions list
+bank,foreign-branch,deutsche,www.db.com,DPA protected institutions list
+bank,foreign-branch,hsbc,www.hsbc.co.th,DPA protected institutions list
+bank,commercial,icbc,www.icbcthai.com,DPA protected institutions list
+bank,foreign-branch,iob,www.iob.co.th,DPA protected institutions list
+bank,foreign-branch,jpmorgan,www.jpmorgan.com,DPA protected institutions list
+bank,commercial,kbank,www.kasikornbank.com,DPA protected institutions list
+bank,commercial,kkp,www.bank.kkpfg.com,DPA protected institutions list
+bank,commercial,krungsri,www.krungsri.com,DPA protected institutions list
+bank,commercial,ktb,www.krungthai.com,DPA protected institutions list
+bank,commercial,lhbank,www.lhbank.co.th,DPA protected institutions list
+bank,foreign-branch,megaicb,www.megabank.com.tw,DPA protected institutions list
+bank,foreign-branch,mizuho,www.mizuhogroup.com,DPA protected institutions list
+bank,foreign-branch,ocbc,www.ocbc.com,DPA protected institutions list
+bank,foreign-branch,rhbthai,www.rhbgroup.com,DPA protected institutions list
+bank,credit-foncier/finance-co,sbeycf,www.sbeycf.com,DPA protected institutions list
+bank,commercial,scb,www.scb.co.th,DPA protected institutions list
+bank,commercial,scthai,www.sc.com,DPA protected institutions list
+bank,foreign-branch,smbc,www.smbc.co.jp,DPA protected institutions list
+bank,commercial,smbtthai,www.smtb.jp,DPA protected institutions list
+bank,commercial,thaicredit,www.thaicreditbank.com,DPA protected institutions list
+bank,commercial,tisco,www.tisco.co.th,DPA protected institutions list
+bank,commercial,ttb,www.ttbbank.com,DPA protected institutions list
+bank,commercial,uob,www.uob.co.th,DPA protected institutions list
+bank,credit-foncier/finance-co,worlrdcf,www.worldcreditfoncier.co.th,DPA protected institutions list
+bank,sfi,gsb,www.gsb.or.th,SFI (added manually)
+bank,sfi,baac,www.baac.or.th,SFI (added manually)
+bank,sfi,ghb,www.ghbank.co.th,SFI (added manually)
+bank,sfi,exim,www.exim.go.th,SFI (added manually)
+bank,sfi,smebank,www.smebank.co.th,SFI (added manually)
+bank,sfi,ibank,www.ibank.co.th,SFI (added manually)
+insurance,life,www.tlife.co.th,www.tlife.co.th,tlaa.html
+insurance,life,www.prudential.co.th,www.prudential.co.th,tlaa.html
+insurance,life,www.tokiomarine.com,www.tokiomarine.com,tlaa.html
+insurance,life,www.philliplife.com,www.philliplife.com,tlaa.html
+insurance,life,www.krungthai-axa.co.th,www.krungthai-axa.co.th,tlaa.html
+insurance,life,www.rabbitlife.co.th,www.rabbitlife.co.th,tlaa.html
+insurance,life,www.thailife.com,www.thailife.com,tlaa.html
+insurance,life,www.thairelife.co.th,www.thairelife.co.th,tlaa.html
+insurance,life,www.fwd.co.th,www.fwd.co.th,tlaa.html
+insurance,life,www.dhipayalife.co.th,www.dhipayalife.co.th,tlaa.html
+insurance,life,www.southeastlife.co.th,www.southeastlife.co.th,tlaa.html
+insurance,life,www.chubb.com,www.chubb.com,tlaa.html
+insurance,life,www.muangthai.co.th,www.muangthai.co.th,tlaa.html
+insurance,life,samsunglife.co.th,samsunglife.co.th,tlaa.html
+insurance,life,www.builife.com,www.builife.com,tlaa.html
+insurance,life,www.aia.co.th,www.aia.co.th,tlaa.html
+insurance,life,www.kwilife.com,www.kwilife.com,tlaa.html
+insurance,life,generali.co.th,generali.co.th,tlaa.html
+insurance,life,www.azay.co.th,www.azay.co.th,tlaa.html
+insurance,life,www.sahalife.co.th,www.sahalife.co.th,tlaa.html
+insurance,life,www.ocean.co.th,www.ocean.co.th,tlaa.html
+insurance,non-life,www.siamsmileinsurance.co.th,www.siamsmileinsurance.co.th,tgia_archive.html
+insurance,non-life,www.mittare.com,www.mittare.com,tgia_archive.html
+insurance,non-life,www.thaihealth.co.th,www.thaihealth.co.th,tgia_archive.html
+insurance,non-life,jaymartinsurance.co.th,jaymartinsurance.co.th,tgia_archive.html
+insurance,non-life,www.thaivivat.co.th,www.thaivivat.co.th,tgia_archive.html
+insurance,non-life,www.aig.co.th,www.aig.co.th,tgia_archive.html
+insurance,non-life,www2.starr.com,www2.starr.com,tgia_archive.html
+insurance,non-life,www.viriyah.co.th,www.viriyah.co.th,tgia_archive.html
+insurance,non-life,www.kwii.com,www.kwii.com,tgia_archive.html
+insurance,non-life,www.navakij.co.th,www.navakij.co.th,tgia_archive.html
+insurance,non-life,www.ergo.co.th,www.ergo.co.th,tgia_archive.html
+insurance,non-life,www.msig-thai.com,www.msig-thai.com,tgia_archive.html
+insurance,non-life,insurverse.co.th,insurverse.co.th,tgia_archive.html
+insurance,non-life,www.thanachartinsurance.co.th,www.thanachartinsurance.co.th,tgia_archive.html
+insurance,non-life,www.newindia.co.in,www.newindia.co.in,tgia_archive.html
+insurance,non-life,www.falconinsurance.co.th,www.falconinsurance.co.th,tgia_archive.html
+insurance,non-life,www.aioibkkins.co.th,www.aioibkkins.co.th,tgia_archive.html
+insurance,non-life,sundayinsurance.co.th,sundayinsurance.co.th,tgia_archive.html
+insurance,non-life,www.dhipaya.co.th,www.dhipaya.co.th,tgia_archive.html
+insurance,non-life,www.thaire.co.th,www.thaire.co.th,tgia_archive.html
+insurance,non-life,www.aianonlife.co.th,www.aianonlife.co.th,tgia_archive.html
+insurance,non-life,www.axa.co.th,www.axa.co.th,tgia_archive.html
+insurance,non-life,www.kpi.co.th,www.kpi.co.th,tgia_archive.html
+insurance,non-life,www.upp.co.th,www.upp.co.th,tgia_archive.html
+insurance,non-life,www.tuneinsurance.co.th,www.tuneinsurance.co.th,tgia_archive.html
+insurance,non-life,www.muangthaiinsurance.com,www.muangthaiinsurance.com,tgia_archive.html
+insurance,non-life,www.thaipat.co.th,www.thaipat.co.th,tgia_archive.html
+insurance,non-life,www.rvp.co.th,www.rvp.co.th,tgia_archive.html
+insurance,non-life,www.generali.co.th,www.generali.co.th,tgia_archive.html
+insurance,non-life,www.lmginsurance.co.th,www.lmginsurance.co.th,tgia_archive.html
+insurance,non-life,www.icare-insurance.com,www.icare-insurance.com,tgia_archive.html
+insurance,non-life,www.indara.co.th,www.indara.co.th,tgia_archive.html
+insurance,non-life,www.charaninsurance.co.th,www.charaninsurance.co.th,tgia_archive.html
+insurance,non-life,www.deves.co.th,www.deves.co.th,tgia_archive.html
+insurance,non-life,www.roojai.com,www.roojai.com,tgia_archive.html
+insurance,non-life,www.tsi.co.th,www.tsi.co.th,tgia_archive.html
+insurance,non-life,www.union-insurance.com,www.union-insurance.com,tgia_archive.html
+insurance,non-life,www.bhi.co.th,www.bhi.co.th,tgia_archive.html
+insurance,non-life,www.ms-ins.co.th,www.ms-ins.co.th,tgia_archive.html
+insurance,non-life,www.pacificcrosshealth.com,www.pacificcrosshealth.com,tgia_archive.html
+insurance,non-life,www.sompo.co.th,www.sompo.co.th,tgia_archive.html
+insurance,non-life,www.bui.co.th,www.bui.co.th,tgia_archive.html
+insurance,non-life,www.thaipaiboon.com,www.thaipaiboon.com,tgia_archive.html
+insurance,non-life,www.bangkokinsurance.com,www.bangkokinsurance.com,tgia_archive.html
+insurance,non-life,bhi.bdms.co.th,bhi.bdms.co.th,tgia.html
+insurance,non-life,tuneprotect.co.th,tuneprotect.co.th,tgia.html
+insurance,non-life,www.jaymartinsurance.co.th,www.jaymartinsurance.co.th,tgia.html
+insurance,non-life,charaninsurance.co.th,charaninsurance.co.th,tgia.html
+hospital,public,สถาบันกัลยาณ์ราชนครินทร์,galya.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลนวเวช,www.navavej.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลวิมุต,www.vimut.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลบางใหญ่,bangyaihospital.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,Ao Luek Hospital,aoluk-hospital.net,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลอุบลรักษ์ ธนบุรี,www.ubonrak.co.th,Wikidata Q16917 in Q869 with P856
+hospital,public,สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา,www.somdet.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลผู้สูงอายุบางขุนเทียน,www.msdbangkok.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลจุฬาลงกรณ์,www.chulalongkornhospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลวิภาวดี,www.vibhavadi.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลนครธน,www.nakornthon.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาวชิราลงกรณธัญบุรี,www.mthcancer.in.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลบำรุงราษฎร์,www.bumrungrad.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพระนั่งเกล้า,www.pranangklao.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสงขลา,www.skhospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสุราษฎร์ธานี,www.srth.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์,hospital.wu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสระบุรี,www.sbh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลบุรีรัมย์,www.brh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,ศูนย์หัวใจสิริกิติ์ ภาคตะวันออกเฉียงเหนือ มหาวิทยาลัยขอนแก่น,heart.kku.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลนครปฐม,www.nkpthospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลนพรัตนราชธานี,www.nopparat.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลร้อยเอ็ด,www.reh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลกาฬสินธุ์,www.klsh.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาสารคาม,www.mkh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเลย,www.loeihospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมเด็จพระปิ่นเกล้า,www.spph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศูนย์วชิระภูเก็ต,www.vachiraphuket.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลยันฮี,yanhee.net,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศรีนครินทร์,www.srinagarind.md.kku.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสกลนคร,www.sknhospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมุทรปราการ,smpkhos.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,Bangkok Hat-Yai Hospital,www.bangkokhospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,ศูนย์การแพทย์กาญจนาภิเษก,www.gj.mahidol.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลวิมุต-เทพธารินทร์,www.theptarin.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมะเร็งสุราษฎร์ธานี,www.suratcancer.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลบางมด,www.bangmodhospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพระนครศรีอยุธยา,www.ayhosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมเด็จพระนางเจ้าสิริกิติ์,sk.nmd.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช,www.tsm.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพระมงกุฎเกล้า,www.pmk.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลนนทเวช,www.nonthavej.co.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเซนต์หลุยส์,www.saintlouis.or.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศิริราช,www.si.mahidol.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเกษมราษฎร์ ศรีบุรินทร์,www.kasemrad.co.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเวชการุณย์รัศมิ์,www.wkrhosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเทียนฟ้ามูลนิธิ,www.thianfah.org,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมุทรสาคร,smkh.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลกุสุมาลย์,www.skko.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลระยอง,rayonghospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพุทธโสธร,www.bsh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลดารารัศมี,www.darahospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลมหาวิทยาลัยแม่ฟ้าหลวง,www.mfuhospitalbkk.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเวชธานี อินเตอร์เนชันแนล,www.vejthani.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาวิทยาลัยนราธิวาสราชนครินทร์,hospital.pnu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลราชบุรี,info.rajburi.org,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศรีธัญญา,www.srithanya.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลวิชัยยุทธ,www.vichaiyut.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลกระบี่,hospital.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลน่าน,www.nanhospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลปทุมธานี,pth.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,ศูนย์การแพทย์สมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี,medicine.swu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน,pcmc.swu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,สถาบันบำราศนราดูร,bamras.ddc.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,สถาบันโรคทรวงอก,www.ccit.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลขอนแก่น,www.khonkaenhospital.org,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลกลาง,www.klanghospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,www.hospital.tu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลภูมิพลอดุลยเดช,www.bhumibolhospital.rtaf.mi.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาราชนครเชียงใหม่,suandok.med.cmu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลราชวิถี,www.rajavithi.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาราชนครราชสีมา,www.mnrh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลรามคำแหง,www.ram-hosp.co.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศรีสะเกษ,www.sskh.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสุรินทร์,www.surinhospital.org,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลอานันทมหิดล,www.ananhosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,www.siphhospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสงขลานครินทร์,hospital.psu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,www.sunpasit.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเชียงรายประชานุเคราะห์,www.crhospital.org,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลอุตรดิตถ์,www.uttaradit-hosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเมืองนารายณ์,www.muangnarai.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพระจอมเกล้า,www.phrachomklao.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเวชศาสตร์เขตร้อน,www.tropmedhospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเจ้าพระยาอภัยภูเบศร,www.cpa.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,สถาบันการแพทย์จักรีนฤบดินทร์,med.mahidol.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลมหาชัย,www.mahachaihospital.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลสุขุมวิท,www.sukumvithospital.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลราชพฤกษ์,rph.co.th,Wikidata Q16917 in Q869 with P856
+hospital,public,Lampang Hospital,www.lph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลภูเวียง,www.phuwianghospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,Patong Hospital,www.patonghospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,Mission Hospital Phuket,www.missionhospitalphuket.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลหาดใหญ่,www.hatyaihospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลกระทุ่มแบน,www.ktbhos.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสวรรค์ประชารักษ์,www.spr.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพุทธชินราช พิษณุโลก,www.budhosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาวิทยาลัยบูรพา,hsc.buu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลตรัง,www.tranghos.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมเด็จพระยุพราชสระแก้ว,www.skh.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสันทราย,www.sansaihospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,วชิรพยาบาล,www.vajira.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลขอนแก่นราม,www.khonkaenram.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเจ้าพระยา,www.chaophya.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลธนบุรี,www.thonburihospital.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลทักษิณ,www.thaksinhospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาราชนครศรีธรรมราช,www.mnst.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลกรุงเทพคริสเตียน,www.mission-hospital.org,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลกรุงเทพ,www.bkkchristianhosp.th.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมหาวิทยาลัยนเรศวร,www.med.nu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลตำรวจ,www1.pgh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลกรุงเทพปากช่อง,www.bangkokhospitalpakchong.com,Wikidata Q16917 in Q869 with P856
+hospital,private,Saint Mary's Hospital,www.smhkorat.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลมนารมย์,www.manarom.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลรวมใจรักษ์,www.ruamjairak.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลบางโพ,bangpo-hospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสิชล,www.sichon-hospital.com,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลกรุงเทพราชสีมา,www.bkh.co.th,Wikidata Q16917 in Q869 with P856
+hospital,private,โรงพยาบาลเปาโล เกษตร,www.paolohospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสมเด็จพระบรมราชเทวี ณ ศรีราชา,www.somdej.or.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง,medicalcenter.mfu.ac.th,Wikidata Q16917 in Q869 with P856
+hospital,public,Lampang Cancer Hospital,www.lpch.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมะเร็งชลบุรี,web2.ccc.in.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมะเร็งลพบุรี,www.lopburicancer.in.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลนครพิงค์,www.nkp-hospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสันป่าตอง,www.sanpatonghospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลมะเร็งอุบลราชธานี,uboncancer.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลอุดรธานี,www.udh.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเจริญกรุงประชารักษ์,www.ckphosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลชลบุรี,www.cbh.moph.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลพระปกเกล้า,www.ppkhosp.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลสงฆ์,www.priest-hospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,สถาบันสุขภาพเด็กแห่งชาติมหาราชินี,www.childrenhospital.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลเลิดสิน,lerdsin.go.th,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลแม่สอด,www.maesot-hospital.com,Wikidata Q16917 in Q869 with P856
+hospital,public,โรงพยาบาลจุฬาภรณ์,www.chulabhornhospital.com,Wikidata Q16917 in Q869 with P856
+government,tax,กรมสรรพากร,www.rd.go.th,purposive: national-scale personal-data holders
+government,civil-registration,กรมการปกครอง,www.dopa.go.th,purposive: national-scale personal-data holders
+government,social-security,สำนักงานประกันสังคม,www.sso.go.th,purposive: national-scale personal-data holders
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,www.nhso.go.th,purposive: national-scale personal-data holders
+government,land,กรมที่ดิน,www.dol.go.th,purposive: national-scale personal-data holders
+government,transport,กรมการขนส่งทางบก,www.dlt.go.th,purposive: national-scale personal-data holders
+government,immigration,สำนักงานตรวจคนเข้าเมือง,www.immigration.go.th,purposive: national-scale personal-data holders
+government,police,สำนักงานตำรวจแห่งชาติ,www.royalthaipolice.go.th,purposive: national-scale personal-data holders
+government,courts,สำนักงานศาลยุติธรรม,www.coj.go.th,purposive: national-scale personal-data holders
+government,enforcement,กรมบังคับคดี,www.led.go.th,purposive: national-scale personal-data holders
+government,business-registry,กรมพัฒนาธุรกิจการค้า,www.dbd.go.th,purposive: national-scale personal-data holders
+government,customs,กรมศุลกากร,www.customs.go.th,purposive: national-scale personal-data holders
+government,payments,กรมบัญชีกลาง,www.cgd.go.th,purposive: national-scale personal-data holders
+government,pension,กองทุนบำเหน็จบำนาญข้าราชการ,www.gpf.or.th,purposive: national-scale personal-data holders
+government,pension,กองทุนการออมแห่งชาติ,www.nsf.or.th,purposive: national-scale personal-data holders
+government,student-loan,กองทุนเงินให้กู้ยืมเพื่อการศึกษา,www.studentloan.or.th,purposive: national-scale personal-data holders
+government,education,ทปอ. (TCAS),www.mytcas.com,purposive: national-scale personal-data holders
+government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,www.obec.go.th,purposive: national-scale personal-data holders
+government,employment,กรมการจัดหางาน,www.doe.go.th,purposive: national-scale personal-data holders
+government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,www.labour.go.th,purposive: national-scale personal-data holders
+government,passport,กรมการกงสุล,www.consular.go.th,purposive: national-scale personal-data holders
+government,elections,สำนักงานคณะกรรมการการเลือกตั้ง,www.ect.go.th,purposive: national-scale personal-data holders
+government,digital-id,สำนักงานพัฒนารัฐบาลดิจิทัล,www.dga.or.th,purposive: national-scale personal-data holders
+government,health,กระทรวงสาธารณสุข,www.moph.go.th,purposive: national-scale personal-data holders
+government,health,กรมการแพทย์,www.dms.go.th,purposive: national-scale personal-data holders
+government,health,กรมควบคุมโรค,ddc.moph.go.th,purposive: national-scale personal-data holders
+government,health,กรมสุขภาพจิต,www.dmh.go.th,purposive: national-scale personal-data holders
+government,health,สำนักงานคณะกรรมการอาหารและยา,www.fda.moph.go.th,purposive: national-scale personal-data holders
+government,justice,กรมสอบสวนคดีพิเศษ,www.dsi.go.th,purposive: national-scale personal-data holders
+government,justice,กรมราชทัณฑ์,www.correct.go.th,purposive: national-scale personal-data holders
+government,lottery,สำนักงานสลากกินแบ่งรัฐบาล,www.glo.or.th,purposive: national-scale personal-data holders
+government,finance-ministry,กระทรวงการคลัง,www.mof.go.th,purposive: national-scale personal-data holders
+government,utility,การไฟฟ้านครหลวง,www.mea.or.th,purposive: national-scale personal-data holders
+government,utility,การไฟฟ้าส่วนภูมิภาค,www.pea.co.th,purposive: national-scale personal-data holders
+government,utility,การประปานครหลวง,www.mwa.co.th,purposive: national-scale personal-data holders
+government,utility,การประปาส่วนภูมิภาค,www.pwa.co.th,purposive: national-scale personal-data holders
+government,post,ไปรษณีย์ไทย,www.thailandpost.co.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล,www.pdpc.or.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ,www.ncsa.or.th,purposive: national-scale personal-data holders
+regulator,regulator,ธนาคารแห่งประเทศไทย,www.bot.or.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงาน ก.ล.ต.,www.sec.or.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงาน คปภ.,www.oic.or.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์,www.etda.or.th,purposive: national-scale personal-data holders
+regulator,regulator,สำนักงาน กสทช.,www.nbtc.go.th,purposive: national-scale personal-data holders

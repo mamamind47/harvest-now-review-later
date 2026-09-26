@@ -1,0 +1,7 @@
+sector,host
+control-pq,www.cloudflare.com
+control-pq,www.google.com
+control-pq,pq.cloudflareresearch.com
+control-nopq,tls-v1-2.badssl.com
+control-nopq,badssl.com
+control-nopq,www.gnu.org

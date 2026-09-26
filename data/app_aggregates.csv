@@ -1,0 +1,21 @@
+app,sector,service_hosts,service_pq,content_hosts,content_pq,unclear_hosts,test_hosts
+MorProm,government,8,3,2,1,0,1
+Paotang,government,3,1,2,2,0,3
+RD Smart Tax,government,2,0,1,0,0,1
+SSO Plus,government,2,0,1,0,0,1
+Tang Rat,government,1,1,1,1,0,0
+ThaID,government,1,0,0,0,0,0
+banking app A,bank,2,1,9,8,2,4
+banking app B,bank,2,2,3,3,2,6
+banking app C,bank,1,1,3,1,0,5
+banking app D,bank,1,0,5,4,0,0
+banking app E,bank,4,1,1,1,0,0
+banking app F,bank,13,3,6,0,1,0
+banking app G,bank,9,1,2,0,0,3
+banking app H,bank,0,0,2,2,0,0
+banking app I,bank,0,0,3,3,1,1
+banking app J,bank,0,0,1,1,1,15
+banking app K,bank,3,1,1,0,1,2
+banking app L,bank,3,1,3,1,0,1
+banking app M,bank,3,2,5,5,1,2
+banking app N,bank,0,0,6,5,0,1
