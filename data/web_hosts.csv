@@ -1,376 +1,376 @@
-sector,subsector,org,host,role,reachable_nt,pq_nt,kx_nt,tls_nt,provider_nt,cdn_nt,reachable_ais,pq_ais,provider_ais
-bank,,bank-10,bank-host-23,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-bank,,bank-24,bank-host-12,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-bank,,bank-25,bank-host-09,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-bank,,bank-12,bank-host-32,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-16,bank-host-04,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-bank,,bank-16,bank-host-02,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-07,bank-host-05,homepage,False,False,,,-,False,False,False,
-bank,,bank-28,bank-host-18,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,True,False,other
-bank,,bank-20,bank-host-31,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-bank,,bank-06,bank-host-17,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-bank,,bank-05,bank-host-26,homepage,True,False,P-384,TLS 1.2,other,False,True,False,other
-bank,,bank-27,bank-host-03,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-bank,,bank-09,bank-host-27,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-02,bank-host-07,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-01,bank-host-21,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-11,bank-host-22,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-15,bank-host-25,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-bank,,bank-08,bank-host-01,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-17,bank-host-19,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-19,bank-host-30,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-bank,,bank-14,bank-host-10,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-22,bank-host-06,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-13,bank-host-28,homepage,True,False,P-256,TLS 1.2,Cloudflare,True,True,False,Cloudflare
-bank,,bank-29,bank-host-33,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-29,bank-host-29,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-26,bank-host-14,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-bank,,bank-26,bank-host-20,staff,True,False,X25519,TLS 1.2,other,False,True,False,other
-bank,,bank-04,bank-host-16,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-bank,,bank-18,bank-host-15,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-03,bank-host-24,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-bank,,bank-23,bank-host-13,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-23,bank-host-11,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-bank,,bank-21,bank-host-08,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.tlife.co.th,www.tlife.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,life,www.tlife.co.th,onlinesale.tlife.co.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,life,www.prudential.co.th,www.prudential.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.prudential.co.th,online.prudential.co.th,public-data,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,True,False,other
-insurance,life,www.prudential.co.th,services.prudential.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.tokiomarine.com,www.tokiomarine.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.philliplife.com,www.philliplife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,life,www.philliplife.com,online.philliplife.com,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.philliplife.com,iservice.philliplife.com,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,life,www.krungthai-axa.co.th,www.krungthai-axa.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-insurance,life,www.rabbitlife.co.th,www.rabbitlife.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,life,www.thailife.com,www.thailife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.thairelife.co.th,www.thairelife.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,True,False,other
-insurance,life,www.fwd.co.th,www.fwd.co.th,homepage,True,False,X25519,TLS 1.3,CloudFront,True,True,False,CloudFront
-insurance,life,www.dhipayalife.co.th,www.dhipayalife.co.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,life,www.dhipayalife.co.th,www.tiplife.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.southeastlife.co.th,www.southeastlife.co.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,life,www.chubb.com,www.chubb.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-insurance,life,www.chubb.com,apac.myaccount.chubb.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-insurance,life,www.muangthai.co.th,www.muangthai.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,life,samsunglife.co.th,samsunglife.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,life,samsunglife.co.th,customer.samsunglife.co.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,life,www.builife.com,www.builife.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.aia.co.th,www.aia.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-insurance,life,www.aia.co.th,iservice.aia.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-insurance,life,www.aia.co.th,agent.aia.co.th,staff,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.aia.co.th,www.healthcare.aia.co.th,institutional-data,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-insurance,life,www.aia.co.th,irpas.aia.co.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.kwilife.com,www.kwilife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,generali.co.th,generali.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,generali.co.th,gen-click.generali.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,generali.co.th,webapp2.generali.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,life,www.azay.co.th,www.azay.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,life,www.sahalife.co.th,www.sahalife.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.ocean.co.th,www.ocean.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,life,www.ocean.co.th,iservice.ocean.co.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.siamsmileinsurance.co.th,www.siamsmileinsurance.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.mittare.com,www.mittare.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.mittare.com,e-training.mittare.com,staff,True,False,P-384,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.thaihealth.co.th,www.thaihealth.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,jaymartinsurance.co.th,jaymartinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,jaymartinsurance.co.th,www.jaymartinsurance.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.thaivivat.co.th,www.thaivivat.co.th,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,True,False,other
-insurance,non-life,www.aig.co.th,www.aig.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-insurance,non-life,www2.starr.com,www2.starr.com,homepage,True,True,X25519MLKEM768,TLS 1.3,AWS (non-CloudFront),False,True,True,other
-insurance,non-life,www.viriyah.co.th,www.viriyah.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.viriyah.co.th,eservice.viriyah.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.navakij.co.th,www.navakij.co.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.ergo.co.th,www.ergo.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.ergo.co.th,partner.ergo.co.th,b2b,False,False,,,-,False,False,False,
-insurance,non-life,www.msig-thai.com,www.msig-thai.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.msig-thai.com,msigbizlink.msig-thai.com,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.msig-thai.com,mservices.msig-thai.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.msig-thai.com,jsmart.msig-thai.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,insurverse.co.th,insurverse.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,insurverse.co.th,insure.insurverse.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.thanachartinsurance.co.th,www.thanachartinsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.newindia.co.in,pmsby.newindia.co.in,public-data,False,False,,,-,False,False,False,
-insurance,non-life,www.newindia.co.in,tlmp.newindia.co.in,staff,False,False,,,-,False,False,False,
-insurance,non-life,www.falconinsurance.co.th,www.falconinsurance.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.falconinsurance.co.th,falconinsurance.co.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.aioibkkins.co.th,www.aioibkkins.co.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,non-life,sundayinsurance.co.th,sundayinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-insurance,non-life,www.dhipaya.co.th,www.dhipaya.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.thaire.co.th,www.thaire.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,True,False,other
-insurance,non-life,www.aianonlife.co.th,www.aianonlife.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.axa.co.th,www.axa.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-insurance,non-life,www.kpi.co.th,www.kpi.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.kpi.co.th,epolicy.kpi.co.th,public-data,True,False,X25519,TLS 1.3,Google,False,True,False,other
-insurance,non-life,www.kpi.co.th,member.kpi.co.th,public-data,True,False,X25519,TLS 1.3,Google,False,True,False,other
-insurance,non-life,www.upp.co.th,www.upp.co.th,homepage,False,False,,,-,False,False,False,
-insurance,non-life,www.tuneinsurance.co.th,www.tuneinsurance.co.th,homepage,False,False,,,-,False,False,False,
-insurance,non-life,www.muangthaiinsurance.com,www.muangthaiinsurance.com,homepage,True,False,X25519,TLS 1.3,Google,False,True,False,other
-insurance,non-life,www.thaipat.co.th,www.thaipat.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.rvp.co.th,www.rvp.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.generali.co.th,www.generali.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.generali.co.th,generali.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.generali.co.th,gen-click.generali.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.generali.co.th,webapp2.generali.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.lmginsurance.co.th,www.lmginsurance.co.th,homepage,False,False,,,-,False,False,False,
-insurance,non-life,www.icare-insurance.com,www.icare-insurance.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.indara.co.th,www.indara.co.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.charaninsurance.co.th,www.charaninsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.charaninsurance.co.th,charaninsurance.co.th,homepage-redirect,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.deves.co.th,www.deves.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.roojai.com,www.roojai.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-insurance,non-life,www.tsi.co.th,www.tsi.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.tsi.co.th,apiservices.tsi.co.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-insurance,non-life,www.union-insurance.com,www.union-insurance.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.bhi.co.th,www.bhi.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.bhi.co.th,bhi.bdms.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.ms-ins.co.th,www.ms-ins.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.pacificcrosshealth.com,www.pacificcrosshealth.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,www.sompo.co.th,www.sompo.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-insurance,non-life,www.bui.co.th,www.bui.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-insurance,non-life,www.thaipaiboon.com,www.thaipaiboon.com,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,True,False,other
-insurance,non-life,www.bangkokinsurance.com,www.bangkokinsurance.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.bangkokinsurance.com,bkiws.bangkokinsurance.com,unclear,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,bhi.bdms.co.th,bhi.bdms.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-insurance,non-life,tuneprotect.co.th,tuneprotect.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,www.jaymartinsurance.co.th,www.jaymartinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-insurance,non-life,charaninsurance.co.th,charaninsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,สถาบันกัลยาณ์ราชนครินทร์,galya.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,สถาบันกัลยาณ์ราชนครินทร์,www.galya.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลนวเวช,www.navavej.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลวิมุต,www.vimut.com,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,True,False,other
-hospital,public,โรงพยาบาลบางใหญ่,bangyaihospital.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,Ao Luek Hospital,aoluk-hospital.net,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลอุบลรักษ์ ธนบุรี,www.ubonrak.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา,www.somdet.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลผู้สูงอายุบางขุนเทียน,www.msdbangkok.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลจุฬาลงกรณ์,www.chulalongkornhospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลวิภาวดี,www.vibhavadi.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลนครธน,www.nakornthon.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลมหาวชิราลงกรณธัญบุรี,www.mthcancer.in.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลบำรุงราษฎร์,www.bumrungrad.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลบำรุงราษฎร์,auth.bumrungrad.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลพระนั่งเกล้า,www.pranangklao.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลพระนั่งเกล้า,pranangklaohospital.moph.go.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสงขลา,www.skhospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสงขลา,gtw.skhospital.go.th,staff,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสงขลา,zkbio.skhospital.go.th,staff,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสุราษฎร์ธานี,www.srth.go.th,homepage,True,False,X25519,TLS 1.3,other,False,False,False,
-hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์,hospital.wu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลสระบุรี,www.sbh.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลบุรีรัมย์,www.brh.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,ศูนย์หัวใจสิริกิติ์ ภาคตะวันออกเฉียงเหนือ มหาวิทยาลัยขอนแก่น,heart.kku.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,ศูนย์หัวใจสิริกิติ์ ภาคตะวันออกเฉียงเหนือ มหาวิทยาลัยขอนแก่น,webappqshc.kku.ac.th,institutional-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลนครปฐม,www.nkpthospital.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลนพรัตนราชธานี,www.nopparat.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลร้อยเอ็ด,www.reh.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลกาฬสินธุ์,www.klsh.moph.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลมหาสารคาม,www.mkh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลเลย,www.loeihospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสมเด็จพระปิ่นเกล้า,www.spph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลศูนย์วชิระภูเก็ต,www.vachiraphuket.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลยันฮี,yanhee.net,homepage,True,False,P-384,TLS 1.3,Google,False,True,False,other
-hospital,private,โรงพยาบาลยันฮี,www.yanhee.net,homepage-redirect,True,False,P-384,TLS 1.3,Google,False,True,False,other
-hospital,public,โรงพยาบาลศรีนครินทร์,www.srinagarind.md.kku.ac.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสกลนคร,www.sknhospital.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสมุทรปราการ,smpkhos.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,Bangkok Hat-Yai Hospital,www.bangkokhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,ศูนย์การแพทย์กาญจนาภิเษก,www.gj.mahidol.ac.th,homepage,True,False,P-384,TLS 1.2,other,False,True,False,other
-hospital,private,โรงพยาบาลวิมุต-เทพธารินทร์,www.theptarin.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลมะเร็งสุราษฎร์ธานี,www.suratcancer.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลบางมด,www.bangmodhospital.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพระนครศรีอยุธยา,www.ayhosp.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสมเด็จพระนางเจ้าสิริกิติ์,sk.nmd.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช,www.tsm.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช,home.tsm.go.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลพระมงกุฎเกล้า,www.pmk.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพระมงกุฎเกล้า,dev34.pmk.ac.th,b2b,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพระมงกุฎเกล้า,wba.pmk.ac.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพระมงกุฎเกล้า,prehn.pmk.ac.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลนนทเวช,www.nonthavej.co.th,homepage,True,False,P-384,TLS 1.2,other,False,True,False,other
-hospital,private,โรงพยาบาลเซนต์หลุยส์,www.saintlouis.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลศิริราช,www.si.mahidol.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลเกษมราษฎร์ ศรีบุรินทร์,www.kasemrad.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-hospital,public,โรงพยาบาลเวชการุณย์รัศมิ์,www.wkrhosp.go.th,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลเทียนฟ้ามูลนิธิ,www.thianfah.org,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลสมุทรสาคร,smkh.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลกุสุมาลย์,www.skko.moph.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลระยอง,rayonghospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลระยอง,www.rayonghospital.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพุทธโสธร,www.bsh.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลดารารัศมี,www.darahospital.go.th,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลมหาวิทยาลัยแม่ฟ้าหลวง,www.mfuhospitalbkk.com,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,True,True,other
-hospital,private,โรงพยาบาลเวชธานี อินเตอร์เนชันแนล,www.vejthani.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลมหาวิทยาลัยนราธิวาสราชนครินทร์,hospital.pnu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลราชบุรี,info.rajburi.org,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,True,True,other
-hospital,public,โรงพยาบาลศรีธัญญา,www.srithanya.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลวิชัยยุทธ,www.vichaiyut.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลกระบี่,hospital.moph.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลน่าน,www.nanhospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลปทุมธานี,pth.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,ศูนย์การแพทย์สมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี,medicine.swu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน,pcmc.swu.ac.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,สถาบันบำราศนราดูร,bamras.ddc.moph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,สถาบันโรคทรวงอก,www.ccit.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลขอนแก่น,www.khonkaenhospital.org,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลกลาง,www.klanghospital.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,www.hospital.tu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,hospital.tu.ac.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,tmc.hospital.tu.ac.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลภูมิพลอดุลยเดช,www.bhumibolhospital.rtaf.mi.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลภูมิพลอดุลยเดช,bhumibolhospital.rtaf.mi.th,homepage-redirect,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลมหาราชนครเชียงใหม่,suandok.med.cmu.ac.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลราชวิถี,www.rajavithi.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลมหาราชนครราชสีมา,www.mnrh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลมหาราชนครราชสีมา,datainfo.mnrh.go.th,institutional-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลรามคำแหง,www.ram-hosp.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,True,False,other
-hospital,public,โรงพยาบาลศรีสะเกษ,www.sskh.moph.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสุรินทร์,www.surinhospital.org,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสุรินทร์,adobsibanawa.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลอานันทมหิดล,www.ananhosp.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,www.siphhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสงขลานครินทร์,hospital.psu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลสงขลานครินทร์,medhr.medicine.psu.ac.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,www.sunpasit.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,intra.sunpasit.go.th,staff,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,www1.sunpasit.go.th,unclear,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,appointment.sunpasit.go.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลเชียงรายประชานุเคราะห์,www.crhospital.org,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลเชียงรายประชานุเคราะห์,appointonline.crhospital.org,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลอุตรดิตถ์,www.uttaradit-hosp.go.th,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลเมืองนารายณ์,www.muangnarai.com,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลพระจอมเกล้า,www.phrachomklao.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลเวชศาสตร์เขตร้อน,www.tropmedhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลเจ้าพระยาอภัยภูเบศร,www.cpa.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,สถาบันการแพทย์จักรีนฤบดินทร์,med.mahidol.ac.th,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลมหาชัย,www.mahachaihospital.com,homepage,True,False,P-384,TLS 1.3,Microsoft/Azure,False,True,False,other
-hospital,private,โรงพยาบาลสุขุมวิท,www.sukumvithospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลราชพฤกษ์,rph.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,Lampang Hospital,www.lph.go.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลภูเวียง,www.phuwianghospital.com,homepage,False,False,,,-,False,False,False,
-hospital,public,Patong Hospital,www.patonghospital.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลหาดใหญ่,www.hatyaihospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลหาดใหญ่,hatyaihospital.moph.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลกระทุ่มแบน,www.ktbhos.go.th,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,True,False,other
-hospital,public,โรงพยาบาลสวรรค์ประชารักษ์,www.spr.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลพุทธชินราช พิษณุโลก,www.budhosp.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลมหาวิทยาลัยบูรพา,hsc.buu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลตรัง,www.tranghos.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสมเด็จพระยุพราชสระแก้ว,www.skh.moph.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลสันทราย,www.sansaihospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,วชิรพยาบาล,www.vajira.ac.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,private,โรงพยาบาลขอนแก่นราม,www.khonkaenram.com,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,True,False,other
-hospital,private,โรงพยาบาลเจ้าพระยา,www.chaophya.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลเจ้าพระยา,chaophya.com,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลธนบุรี,www.thonburihospital.com,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,True,False,other
-hospital,private,โรงพยาบาลทักษิณ,www.thaksinhospital.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลมหาราชนครศรีธรรมราช,www.mnst.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,True,True,other
-hospital,private,โรงพยาบาลกรุงเทพคริสเตียน,www.mission-hospital.org,homepage,True,True,X25519MLKEM768,TLS 1.3,AWS (non-CloudFront),False,True,True,other
-hospital,private,โรงพยาบาลกรุงเทพ,www.bkkchristianhosp.th.com,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลมหาวิทยาลัยนเรศวร,www.med.nu.ac.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลตำรวจ,www1.pgh.go.th,homepage,False,False,,,-,False,False,False,
-hospital,private,โรงพยาบาลกรุงเทพปากช่อง,www.bangkokhospitalpakchong.com,homepage,False,False,,,-,False,False,False,
-hospital,private,Saint Mary's Hospital,www.smhkorat.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลมนารมย์,www.manarom.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลรวมใจรักษ์,www.ruamjairak.com,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,private,โรงพยาบาลบางโพ,bangpo-hospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสิชล,www.sichon-hospital.com,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,private,โรงพยาบาลกรุงเทพราชสีมา,www.bkh.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลกรุงเทพราชสีมา,www.bangkokhospital.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,private,โรงพยาบาลเปาโล เกษตร,www.paolohospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลสมเด็จพระบรมราชเทวี ณ ศรีราชา,www.somdej.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง,medicalcenter.mfu.ac.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง,carbooking.mch.mfu.ac.th,staff,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,Lampang Cancer Hospital,www.lpch.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลมะเร็งชลบุรี,web2.ccc.in.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลมะเร็งลพบุรี,www.lopburicancer.in.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลนครพิงค์,www.nkp-hospital.go.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลนครพิงค์,his.nkp-hospital.go.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลสันป่าตอง,www.sanpatonghospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-hospital,public,โรงพยาบาลมะเร็งอุบลราชธานี,uboncancer.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลอุดรธานี,www.udh.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลเจริญกรุงประชารักษ์,www.ckphosp.go.th,homepage,False,False,,,-,False,False,False,
-hospital,public,โรงพยาบาลชลบุรี,www.cbh.moph.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,โรงพยาบาลพระปกเกล้า,www.ppkhosp.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลสงฆ์,www.priest-hospital.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-hospital,public,สถาบันสุขภาพเด็กแห่งชาติมหาราชินี,www.childrenhospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,สถาบันสุขภาพเด็กแห่งชาติมหาราชินี,url2.childrenhospital.go.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลเลิดสิน,lerdsin.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-hospital,public,โรงพยาบาลแม่สอด,www.maesot-hospital.com,homepage,True,False,X25519,TLS 1.2,Cloudflare,True,True,False,Cloudflare
-hospital,public,โรงพยาบาลจุฬาภรณ์,www.chulabhornhospital.com,homepage,False,False,,,-,False,False,False,
-government,tax,กรมสรรพากร,www.rd.go.th,homepage,True,False,P-384,TLS 1.2,other,False,True,False,other
-government,tax,กรมสรรพากร,efiling.rd.go.th,public-data,True,False,P-384,TLS 1.2,other,False,True,False,other
-government,civil-registration,กรมการปกครอง,www.dopa.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,social-security,สำนักงานประกันสังคม,www.sso.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,www.nhso.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,eservices.nhso.go.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,ppplatform.nhso.go.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,vendor.nhso.go.th,b2b,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,ucinfo.nhso.go.th,no-personal-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,eclaim.nhso.go.th,institutional-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,audit.nhso.go.th,staff,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,land,กรมที่ดิน,www.dol.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-government,land,กรมที่ดิน,validate.perfdrive.com,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,transport,กรมการขนส่งทางบก,www.dlt.go.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,immigration,สำนักงานตรวจคนเข้าเมือง,www.immigration.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,police,สำนักงานตำรวจแห่งชาติ,www.royalthaipolice.go.th,homepage,True,False,X25519,TLS 1.3,Akamai,True,True,False,Akamai
-government,courts,สำนักงานศาลยุติธรรม,www.coj.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,courts,สำนักงานศาลยุติธรรม,www.50tavi.e-service.coj.go.th,unclear,False,False,,,-,False,False,False,
-government,enforcement,กรมบังคับคดี,www.led.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,business-registry,กรมพัฒนาธุรกิจการค้า,www.dbd.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,customs,กรมศุลกากร,www.customs.go.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,customs,กรมศุลกากร,tariffeservice.customs.go.th,no-personal-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,customs,กรมศุลกากร,registeronline.customs.go.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,customs,กรมศุลกากร,postalbooking.customs.go.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,payments,กรมบัญชีกลาง,www.cgd.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,pension,กองทุนบำเหน็จบำนาญข้าราชการ,www.gpf.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,pension,กองทุนบำเหน็จบำนาญข้าราชการ,mygpf.gpf.or.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,pension,กองทุนการออมแห่งชาติ,www.nsf.or.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,pension,กองทุนการออมแห่งชาติ,eservice.nsf.or.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,pension,กองทุนการออมแห่งชาติ,agent-service.nsf.or.th,staff,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,student-loan,กองทุนเงินให้กู้ยืมเพื่อการศึกษา,www.studentloan.or.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,education,ทปอ. (TCAS),www.mytcas.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,education,ทปอ. (TCAS),student.mytcas.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Fastly,True,True,True,Fastly
-government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,www.obec.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,True,True,other
-government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,e-ocs.obec.go.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,receipt.obec.go.th,staff,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,employment,กรมการจัดหางาน,www.doe.go.th,homepage,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,www.labour.go.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,itserver15.labour.go.th,public-data,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,eservice.labour.go.th,unclear,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,passport,กรมการกงสุล,www.consular.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,passport,กรมการกงสุล,consular.mfa.go.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,elections,สำนักงานคณะกรรมการการเลือกตั้ง,www.ect.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,digital-id,สำนักงานพัฒนารัฐบาลดิจิทัล,www.dga.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,health,กระทรวงสาธารณสุข,www.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,health,กรมการแพทย์,www.dms.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,health,กรมควบคุมโรค,ddc.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-government,health,กรมสุขภาพจิต,www.dmh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health,กรมสุขภาพจิต,dmh.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,health,สำนักงานคณะกรรมการอาหารและยา,www.fda.moph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,justice,กรมสอบสวนคดีพิเศษ,www.dsi.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,justice,กรมราชทัณฑ์,www.correct.go.th,homepage,False,False,,,-,False,False,False,
-government,lottery,สำนักงานสลากกินแบ่งรัฐบาล,www.glo.or.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,finance-ministry,กระทรวงการคลัง,www.mof.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,utility,การไฟฟ้านครหลวง,www.mea.or.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,utility,การไฟฟ้าส่วนภูมิภาค,www.pea.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-government,utility,การไฟฟ้าส่วนภูมิภาค,eservice.pea.co.th,no-personal-data,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-government,utility,การไฟฟ้าส่วนภูมิภาค,sabuyservice.pea.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,True,True,CloudFront
-government,utility,การประปานครหลวง,www.mwa.co.th,homepage,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,utility,การประปานครหลวง,eservicesapp.mwa.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-government,utility,การประปานครหลวง,eservices.mwa.co.th,public-data,False,False,,,-,False,False,False,
-government,utility,การประปาส่วนภูมิภาค,www.pwa.co.th,homepage,True,False,X25519,TLS 1.3,other,False,True,False,other
-government,utility,การประปาส่วนภูมิภาค,eprocurement.pwa.co.th,b2b,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,utility,การประปาส่วนภูมิภาค,eservice.pwa.co.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,utility,การประปาส่วนภูมิภาค,register.pwa.co.th,public-data,True,False,X25519,TLS 1.2,other,False,True,False,other
-government,utility,การประปาส่วนภูมิภาค,intranet.pwa.co.th,staff,False,False,,,-,False,False,False,
-government,utility,การประปาส่วนภูมิภาค,working.pwa.co.th,staff,False,False,,,-,False,False,False,
-government,utility,การประปาส่วนภูมิภาค,customer-application.pwa.co.th,public-data,True,False,P-256,TLS 1.2,other,False,True,False,other
-government,post,ไปรษณีย์ไทย,www.thailandpost.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-regulator,regulator,สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล,www.pdpc.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-regulator,regulator,สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ,www.ncsa.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-regulator,regulator,ธนาคารแห่งประเทศไทย,www.bot.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,Akamai
-regulator,regulator,สำนักงาน ก.ล.ต.,www.sec.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,True,True,other
-regulator,regulator,สำนักงาน คปภ.,www.oic.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,True,True,Imperva
-regulator,regulator,สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์,www.etda.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-regulator,regulator,สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์,eservice.etda.or.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
-regulator,regulator,สำนักงาน กสทช.,www.nbtc.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,True,True,Cloudflare
+sector,subsector,org,host,role,reachable_nt,pq_nt,kx_nt,tls_nt,provider_nt,cdn_nt,server_family_nt,reachable_ais,pq_ais,provider_ais
+bank,,bank-10,bank-host-23,homepage,True,False,X25519,TLS 1.2,other,False,IIS,True,False,other
+bank,,bank-24,bank-host-12,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+bank,,bank-25,bank-host-09,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+bank,,bank-12,bank-host-32,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-16,bank-host-04,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,Apache,True,True,CloudFront
+bank,,bank-16,bank-host-02,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-07,bank-host-05,homepage,False,False,,,-,False,not disclosed,False,False,
+bank,,bank-28,bank-host-18,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,not disclosed,True,False,other
+bank,,bank-20,bank-host-31,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,other
+bank,,bank-06,bank-host-17,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+bank,,bank-05,bank-host-26,homepage,True,False,P-384,TLS 1.2,other,False,not disclosed,True,False,other
+bank,,bank-27,bank-host-03,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,Akamai
+bank,,bank-09,bank-host-27,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-02,bank-host-07,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-01,bank-host-21,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-11,bank-host-22,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-15,bank-host-25,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+bank,,bank-08,bank-host-01,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-17,bank-host-19,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-19,bank-host-30,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+bank,,bank-14,bank-host-10,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-22,bank-host-06,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-13,bank-host-28,homepage,True,False,P-256,TLS 1.2,Cloudflare,True,not disclosed,True,False,Cloudflare
+bank,,bank-29,bank-host-33,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-29,bank-host-29,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-26,bank-host-14,homepage,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+bank,,bank-26,bank-host-20,staff,True,False,X25519,TLS 1.2,other,False,not disclosed,True,False,other
+bank,,bank-04,bank-host-16,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+bank,,bank-18,bank-host-15,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-03,bank-host-24,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+bank,,bank-23,bank-host-13,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-23,bank-host-11,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+bank,,bank-21,bank-host-08,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,nginx,True,True,Imperva
+insurance,life,www.tlife.co.th,www.tlife.co.th,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+insurance,life,www.tlife.co.th,onlinesale.tlife.co.th,public-data,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+insurance,life,www.prudential.co.th,www.prudential.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,www.prudential.co.th,online.prudential.co.th,public-data,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,not disclosed,True,False,other
+insurance,life,www.prudential.co.th,services.prudential.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,www.tokiomarine.com,www.tokiomarine.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,Apache,True,True,Imperva
+insurance,life,www.philliplife.com,www.philliplife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,life,www.philliplife.com,online.philliplife.com,public-data,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,life,www.philliplife.com,iservice.philliplife.com,public-data,True,False,P-256,TLS 1.2,other,False,IIS,True,False,other
+insurance,life,www.krungthai-axa.co.th,www.krungthai-axa.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+insurance,life,www.rabbitlife.co.th,www.rabbitlife.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,life,www.thailife.com,www.thailife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,www.thairelife.co.th,www.thairelife.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,not disclosed,True,False,other
+insurance,life,www.fwd.co.th,www.fwd.co.th,homepage,True,False,X25519,TLS 1.3,CloudFront,True,other,True,False,CloudFront
+insurance,life,www.dhipayalife.co.th,www.dhipayalife.co.th,homepage,True,False,X25519,TLS 1.2,other,False,IIS,True,False,other
+insurance,life,www.dhipayalife.co.th,www.tiplife.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,www.southeastlife.co.th,www.southeastlife.co.th,homepage,True,False,X25519,TLS 1.2,other,False,not disclosed,True,False,other
+insurance,life,www.chubb.com,www.chubb.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,Akamai
+insurance,life,www.chubb.com,apac.myaccount.chubb.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+insurance,life,www.muangthai.co.th,www.muangthai.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,life,samsunglife.co.th,samsunglife.co.th,homepage,True,False,P-256,TLS 1.2,other,False,IIS,True,False,other
+insurance,life,samsunglife.co.th,customer.samsunglife.co.th,public-data,True,False,X25519,TLS 1.2,other,False,Apache,True,False,other
+insurance,life,www.builife.com,www.builife.com,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,life,www.aia.co.th,www.aia.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,Akamai
+insurance,life,www.aia.co.th,iservice.aia.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,Akamai
+insurance,life,www.aia.co.th,agent.aia.co.th,staff,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+insurance,life,www.aia.co.th,www.healthcare.aia.co.th,institutional-data,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,other,True,True,Akamai
+insurance,life,www.aia.co.th,irpas.aia.co.th,public-data,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+insurance,life,www.kwilife.com,www.kwilife.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,other,True,True,Imperva
+insurance,life,generali.co.th,generali.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,generali.co.th,gen-click.generali.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,generali.co.th,webapp2.generali.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,life,www.azay.co.th,www.azay.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,life,www.sahalife.co.th,www.sahalife.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,life,www.ocean.co.th,www.ocean.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,life,www.ocean.co.th,iservice.ocean.co.th,public-data,True,False,P-256,TLS 1.2,other,False,other,True,False,other
+insurance,non-life,www.siamsmileinsurance.co.th,www.siamsmileinsurance.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.mittare.com,www.mittare.com,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+insurance,non-life,www.mittare.com,e-training.mittare.com,staff,True,False,P-384,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.thaihealth.co.th,www.thaihealth.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,jaymartinsurance.co.th,jaymartinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,jaymartinsurance.co.th,www.jaymartinsurance.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,IIS,True,True,Imperva
+insurance,non-life,www.thaivivat.co.th,www.thaivivat.co.th,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,other,True,False,other
+insurance,non-life,www.aig.co.th,www.aig.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,Apache,True,True,CloudFront
+insurance,non-life,www2.starr.com,www2.starr.com,homepage,True,True,X25519MLKEM768,TLS 1.3,AWS (non-CloudFront),False,not disclosed,True,True,other
+insurance,non-life,www.viriyah.co.th,www.viriyah.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.viriyah.co.th,eservice.viriyah.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.navakij.co.th,www.navakij.co.th,homepage,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+insurance,non-life,www.ergo.co.th,www.ergo.co.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+insurance,non-life,www.ergo.co.th,partner.ergo.co.th,b2b,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.msig-thai.com,www.msig-thai.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,nginx,True,True,Imperva
+insurance,non-life,www.msig-thai.com,msigbizlink.msig-thai.com,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,other,True,True,Imperva
+insurance,non-life,www.msig-thai.com,mservices.msig-thai.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,other,True,True,Imperva
+insurance,non-life,www.msig-thai.com,jsmart.msig-thai.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,nginx,True,True,Imperva
+insurance,non-life,insurverse.co.th,insurverse.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,insurverse.co.th,insure.insurverse.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.thanachartinsurance.co.th,www.thanachartinsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+insurance,non-life,www.newindia.co.in,pmsby.newindia.co.in,public-data,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.newindia.co.in,tlmp.newindia.co.in,staff,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.falconinsurance.co.th,www.falconinsurance.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.falconinsurance.co.th,falconinsurance.co.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.aioibkkins.co.th,www.aioibkkins.co.th,homepage,True,False,X25519,TLS 1.2,other,False,other,True,False,other
+insurance,non-life,sundayinsurance.co.th,sundayinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+insurance,non-life,www.dhipaya.co.th,www.dhipaya.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.thaire.co.th,www.thaire.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,not disclosed,True,False,other
+insurance,non-life,www.aianonlife.co.th,www.aianonlife.co.th,homepage,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+insurance,non-life,www.axa.co.th,www.axa.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+insurance,non-life,www.kpi.co.th,www.kpi.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.kpi.co.th,epolicy.kpi.co.th,public-data,True,False,X25519,TLS 1.3,Google,False,not disclosed,True,False,other
+insurance,non-life,www.kpi.co.th,member.kpi.co.th,public-data,True,False,X25519,TLS 1.3,Google,False,not disclosed,True,False,other
+insurance,non-life,www.upp.co.th,www.upp.co.th,homepage,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.tuneinsurance.co.th,www.tuneinsurance.co.th,homepage,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.muangthaiinsurance.com,www.muangthaiinsurance.com,homepage,True,False,X25519,TLS 1.3,Google,False,not disclosed,True,False,other
+insurance,non-life,www.thaipat.co.th,www.thaipat.co.th,homepage,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+insurance,non-life,www.rvp.co.th,www.rvp.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.generali.co.th,www.generali.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.generali.co.th,generali.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.generali.co.th,gen-click.generali.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.generali.co.th,webapp2.generali.co.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.lmginsurance.co.th,www.lmginsurance.co.th,homepage,False,False,,,-,False,not disclosed,False,False,
+insurance,non-life,www.icare-insurance.com,www.icare-insurance.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.indara.co.th,www.indara.co.th,homepage,True,False,X25519,TLS 1.2,other,False,not disclosed,True,False,other
+insurance,non-life,www.charaninsurance.co.th,www.charaninsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+insurance,non-life,www.charaninsurance.co.th,charaninsurance.co.th,homepage-redirect,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+insurance,non-life,www.deves.co.th,www.deves.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,IIS,True,True,Imperva
+insurance,non-life,www.roojai.com,www.roojai.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,nginx,True,True,Akamai
+insurance,non-life,www.tsi.co.th,www.tsi.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.tsi.co.th,apiservices.tsi.co.th,public-data,True,False,P-256,TLS 1.2,other,False,IIS,True,False,other
+insurance,non-life,www.union-insurance.com,www.union-insurance.com,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+insurance,non-life,www.bhi.co.th,www.bhi.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.bhi.co.th,bhi.bdms.co.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.ms-ins.co.th,www.ms-ins.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.pacificcrosshealth.com,www.pacificcrosshealth.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,www.sompo.co.th,www.sompo.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+insurance,non-life,www.bui.co.th,www.bui.co.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+insurance,non-life,www.thaipaiboon.com,www.thaipaiboon.com,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,nginx,True,False,other
+insurance,non-life,www.bangkokinsurance.com,www.bangkokinsurance.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.bangkokinsurance.com,bkiws.bangkokinsurance.com,unclear,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,bhi.bdms.co.th,bhi.bdms.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+insurance,non-life,tuneprotect.co.th,tuneprotect.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+insurance,non-life,www.jaymartinsurance.co.th,www.jaymartinsurance.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,IIS,True,True,Imperva
+insurance,non-life,charaninsurance.co.th,charaninsurance.co.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,สถาบันกัลยาณ์ราชนครินทร์,galya.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,สถาบันกัลยาณ์ราชนครินทร์,www.galya.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลนวเวช,www.navavej.com,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลวิมุต,www.vimut.com,homepage,True,False,P-256,TLS 1.2,AWS (non-CloudFront),False,nginx,True,False,other
+hospital,public,โรงพยาบาลบางใหญ่,bangyaihospital.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,Ao Luek Hospital,aoluk-hospital.net,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลอุบลรักษ์ ธนบุรี,www.ubonrak.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา,www.somdet.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลผู้สูงอายุบางขุนเทียน,www.msdbangkok.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลจุฬาลงกรณ์,www.chulalongkornhospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลวิภาวดี,www.vibhavadi.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลนครธน,www.nakornthon.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลมหาวชิราลงกรณธัญบุรี,www.mthcancer.in.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลบำรุงราษฎร์,www.bumrungrad.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลบำรุงราษฎร์,auth.bumrungrad.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลพระนั่งเกล้า,www.pranangklao.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลพระนั่งเกล้า,pranangklaohospital.moph.go.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสงขลา,www.skhospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสงขลา,gtw.skhospital.go.th,staff,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสงขลา,zkbio.skhospital.go.th,staff,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสุราษฎร์ธานี,www.srth.go.th,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์,hospital.wu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลสระบุรี,www.sbh.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลบุรีรัมย์,www.brh.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,ศูนย์หัวใจสิริกิติ์ ภาคตะวันออกเฉียงเหนือ มหาวิทยาลัยขอนแก่น,heart.kku.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,ศูนย์หัวใจสิริกิติ์ ภาคตะวันออกเฉียงเหนือ มหาวิทยาลัยขอนแก่น,webappqshc.kku.ac.th,institutional-data,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลนครปฐม,www.nkpthospital.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลนพรัตนราชธานี,www.nopparat.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลร้อยเอ็ด,www.reh.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลกาฬสินธุ์,www.klsh.moph.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลมหาสารคาม,www.mkh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลเลย,www.loeihospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสมเด็จพระปิ่นเกล้า,www.spph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลศูนย์วชิระภูเก็ต,www.vachiraphuket.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,private,โรงพยาบาลยันฮี,yanhee.net,homepage,True,False,P-384,TLS 1.3,Google,False,nginx,True,False,other
+hospital,private,โรงพยาบาลยันฮี,www.yanhee.net,homepage-redirect,True,False,P-384,TLS 1.3,Google,False,nginx,True,False,other
+hospital,public,โรงพยาบาลศรีนครินทร์,www.srinagarind.md.kku.ac.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสกลนคร,www.sknhospital.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสมุทรปราการ,smpkhos.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,Bangkok Hat-Yai Hospital,www.bangkokhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,ศูนย์การแพทย์กาญจนาภิเษก,www.gj.mahidol.ac.th,homepage,True,False,P-384,TLS 1.2,other,False,IIS,True,False,other
+hospital,private,โรงพยาบาลวิมุต-เทพธารินทร์,www.theptarin.com,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลมะเร็งสุราษฎร์ธานี,www.suratcancer.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,private,โรงพยาบาลบางมด,www.bangmodhospital.com,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลพระนครศรีอยุธยา,www.ayhosp.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสมเด็จพระนางเจ้าสิริกิติ์,sk.nmd.go.th,homepage,True,False,P-256,TLS 1.2,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช,www.tsm.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลสมเด็จพระเจ้าตากสินมหาราช,home.tsm.go.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลพระมงกุฎเกล้า,www.pmk.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+hospital,public,โรงพยาบาลพระมงกุฎเกล้า,dev34.pmk.ac.th,b2b,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+hospital,public,โรงพยาบาลพระมงกุฎเกล้า,wba.pmk.ac.th,public-data,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+hospital,public,โรงพยาบาลพระมงกุฎเกล้า,prehn.pmk.ac.th,public-data,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+hospital,private,โรงพยาบาลนนทเวช,www.nonthavej.co.th,homepage,True,False,P-384,TLS 1.2,other,False,IIS,True,False,other
+hospital,private,โรงพยาบาลเซนต์หลุยส์,www.saintlouis.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลศิริราช,www.si.mahidol.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+hospital,private,โรงพยาบาลเกษมราษฎร์ ศรีบุรินทร์,www.kasemrad.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+hospital,public,โรงพยาบาลเวชการุณย์รัศมิ์,www.wkrhosp.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลเทียนฟ้ามูลนิธิ,www.thianfah.org,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลสมุทรสาคร,smkh.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลกุสุมาลย์,www.skko.moph.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลระยอง,rayonghospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลระยอง,www.rayonghospital.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลพุทธโสธร,www.bsh.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลดารารัศมี,www.darahospital.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลมหาวิทยาลัยแม่ฟ้าหลวง,www.mfuhospitalbkk.com,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,nginx,True,True,other
+hospital,private,โรงพยาบาลเวชธานี อินเตอร์เนชันแนล,www.vejthani.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลมหาวิทยาลัยนราธิวาสราชนครินทร์,hospital.pnu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลราชบุรี,info.rajburi.org,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,nginx,True,True,other
+hospital,public,โรงพยาบาลศรีธัญญา,www.srithanya.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,private,โรงพยาบาลวิชัยยุทธ,www.vichaiyut.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลกระบี่,hospital.moph.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลน่าน,www.nanhospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลปทุมธานี,pth.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,ศูนย์การแพทย์สมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี,medicine.swu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน,pcmc.swu.ac.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,สถาบันบำราศนราดูร,bamras.ddc.moph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,สถาบันโรคทรวงอก,www.ccit.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลขอนแก่น,www.khonkaenhospital.org,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลกลาง,www.klanghospital.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,www.hospital.tu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,hospital.tu.ac.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลธรรมศาสตร์เฉลิมพระเกียรติ,tmc.hospital.tu.ac.th,public-data,True,False,X25519,TLS 1.2,other,False,not disclosed,True,False,other
+hospital,public,โรงพยาบาลภูมิพลอดุลยเดช,www.bhumibolhospital.rtaf.mi.th,homepage,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลภูมิพลอดุลยเดช,bhumibolhospital.rtaf.mi.th,homepage-redirect,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลมหาราชนครเชียงใหม่,suandok.med.cmu.ac.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลราชวิถี,www.rajavithi.go.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลมหาราชนครราชสีมา,www.mnrh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+hospital,public,โรงพยาบาลมหาราชนครราชสีมา,datainfo.mnrh.go.th,institutional-data,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,private,โรงพยาบาลรามคำแหง,www.ram-hosp.co.th,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,Apache,True,False,other
+hospital,public,โรงพยาบาลศรีสะเกษ,www.sskh.moph.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสุรินทร์,www.surinhospital.org,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,not disclosed,True,True,Cloudflare
+hospital,public,โรงพยาบาลสุรินทร์,adobsibanawa.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,not disclosed,True,True,Cloudflare
+hospital,public,โรงพยาบาลอานันทมหิดล,www.ananhosp.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,www.siphhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสงขลานครินทร์,hospital.psu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลสงขลานครินทร์,medhr.medicine.psu.ac.th,public-data,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,www.sunpasit.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,intra.sunpasit.go.th,staff,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,www1.sunpasit.go.th,unclear,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสรรพสิทธิประสงค์,appointment.sunpasit.go.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลเชียงรายประชานุเคราะห์,www.crhospital.org,homepage,True,False,X25519,TLS 1.2,other,False,IIS,True,False,other
+hospital,public,โรงพยาบาลเชียงรายประชานุเคราะห์,appointonline.crhospital.org,public-data,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลอุตรดิตถ์,www.uttaradit-hosp.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลเมืองนารายณ์,www.muangnarai.com,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลพระจอมเกล้า,www.phrachomklao.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลเวชศาสตร์เขตร้อน,www.tropmedhospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลเจ้าพระยาอภัยภูเบศร,www.cpa.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,สถาบันการแพทย์จักรีนฤบดินทร์,med.mahidol.ac.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลมหาชัย,www.mahachaihospital.com,homepage,True,False,P-384,TLS 1.3,Microsoft/Azure,False,nginx,True,False,other
+hospital,private,โรงพยาบาลสุขุมวิท,www.sukumvithospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลราชพฤกษ์,rph.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,Lampang Hospital,www.lph.go.th,homepage,True,False,X25519,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลภูเวียง,www.phuwianghospital.com,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,Patong Hospital,www.patonghospital.go.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลหาดใหญ่,www.hatyaihospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลหาดใหญ่,hatyaihospital.moph.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลกระทุ่มแบน,www.ktbhos.go.th,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,nginx,True,False,other
+hospital,public,โรงพยาบาลสวรรค์ประชารักษ์,www.spr.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลพุทธชินราช พิษณุโลก,www.budhosp.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลมหาวิทยาลัยบูรพา,hsc.buu.ac.th,homepage,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+hospital,public,โรงพยาบาลตรัง,www.tranghos.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสมเด็จพระยุพราชสระแก้ว,www.skh.moph.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลสันทราย,www.sansaihospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,วชิรพยาบาล,www.vajira.ac.th,homepage,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลขอนแก่นราม,www.khonkaenram.com,homepage,True,False,X25519,TLS 1.3,AWS (non-CloudFront),False,nginx,True,False,other
+hospital,private,โรงพยาบาลเจ้าพระยา,www.chaophya.com,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลเจ้าพระยา,chaophya.com,homepage-redirect,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลธนบุรี,www.thonburihospital.com,homepage,True,False,X25519,TLS 1.3,Microsoft/Azure,False,nginx,True,False,other
+hospital,private,โรงพยาบาลทักษิณ,www.thaksinhospital.com,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลมหาราชนครศรีธรรมราช,www.mnst.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,nginx,True,True,other
+hospital,private,โรงพยาบาลกรุงเทพคริสเตียน,www.mission-hospital.org,homepage,True,True,X25519MLKEM768,TLS 1.3,AWS (non-CloudFront),False,other,True,True,other
+hospital,private,โรงพยาบาลกรุงเทพ,www.bkkchristianhosp.th.com,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+hospital,public,โรงพยาบาลมหาวิทยาลัยนเรศวร,www.med.nu.ac.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลตำรวจ,www1.pgh.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,โรงพยาบาลกรุงเทพปากช่อง,www.bangkokhospitalpakchong.com,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,private,Saint Mary's Hospital,www.smhkorat.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลมนารมย์,www.manarom.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลรวมใจรักษ์,www.ruamjairak.com,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,private,โรงพยาบาลบางโพ,bangpo-hospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสิชล,www.sichon-hospital.com,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,private,โรงพยาบาลกรุงเทพราชสีมา,www.bkh.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลกรุงเทพราชสีมา,www.bangkokhospital.com,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,private,โรงพยาบาลเปาโล เกษตร,www.paolohospital.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลสมเด็จพระบรมราชเทวี ณ ศรีราชา,www.somdej.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง,medicalcenter.mfu.ac.th,homepage,True,False,P-256,TLS 1.2,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง,carbooking.mch.mfu.ac.th,staff,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+hospital,public,Lampang Cancer Hospital,www.lpch.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลมะเร็งชลบุรี,web2.ccc.in.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลมะเร็งลพบุรี,www.lopburicancer.in.th,homepage,True,False,P-256,TLS 1.2,other,False,IIS,True,False,other
+hospital,public,โรงพยาบาลนครพิงค์,www.nkp-hospital.go.th,homepage,True,False,X25519,TLS 1.2,other,False,other,True,False,other
+hospital,public,โรงพยาบาลนครพิงค์,his.nkp-hospital.go.th,public-data,True,False,X25519,TLS 1.2,other,False,IIS,True,False,other
+hospital,public,โรงพยาบาลสันป่าตอง,www.sanpatonghospital.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+hospital,public,โรงพยาบาลมะเร็งอุบลราชธานี,uboncancer.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลอุดรธานี,www.udh.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลเจริญกรุงประชารักษ์,www.ckphosp.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+hospital,public,โรงพยาบาลชลบุรี,www.cbh.moph.go.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลพระปกเกล้า,www.ppkhosp.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลสงฆ์,www.priest-hospital.go.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+hospital,public,สถาบันสุขภาพเด็กแห่งชาติมหาราชินี,www.childrenhospital.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,สถาบันสุขภาพเด็กแห่งชาติมหาราชินี,url2.childrenhospital.go.th,public-data,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+hospital,public,โรงพยาบาลเลิดสิน,lerdsin.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+hospital,public,โรงพยาบาลแม่สอด,www.maesot-hospital.com,homepage,True,False,X25519,TLS 1.2,Cloudflare,True,other,True,False,Cloudflare
+hospital,public,โรงพยาบาลจุฬาภรณ์,www.chulabhornhospital.com,homepage,False,False,,,-,False,not disclosed,False,False,
+government,tax,กรมสรรพากร,www.rd.go.th,homepage,True,False,P-384,TLS 1.2,other,False,Apache,True,False,other
+government,tax,กรมสรรพากร,efiling.rd.go.th,public-data,True,False,P-384,TLS 1.2,other,False,nginx,True,False,other
+government,civil-registration,กรมการปกครอง,www.dopa.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,Apache,True,True,Imperva
+government,social-security,สำนักงานประกันสังคม,www.sso.go.th,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,www.nhso.go.th,homepage,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,eservices.nhso.go.th,public-data,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,ppplatform.nhso.go.th,public-data,True,False,X25519,TLS 1.2,other,False,IIS,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,vendor.nhso.go.th,b2b,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,ucinfo.nhso.go.th,no-personal-data,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,eclaim.nhso.go.th,institutional-data,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,health-insurance,สำนักงานหลักประกันสุขภาพแห่งชาติ,audit.nhso.go.th,staff,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+government,land,กรมที่ดิน,www.dol.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+government,land,กรมที่ดิน,validate.perfdrive.com,homepage-redirect,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+government,transport,กรมการขนส่งทางบก,www.dlt.go.th,homepage,True,False,X25519,TLS 1.2,other,False,not disclosed,True,False,other
+government,immigration,สำนักงานตรวจคนเข้าเมือง,www.immigration.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,police,สำนักงานตำรวจแห่งชาติ,www.royalthaipolice.go.th,homepage,True,False,X25519,TLS 1.3,Akamai,True,not disclosed,True,False,Akamai
+government,courts,สำนักงานศาลยุติธรรม,www.coj.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,Apache,True,True,Imperva
+government,courts,สำนักงานศาลยุติธรรม,www.50tavi.e-service.coj.go.th,unclear,False,False,,,-,False,not disclosed,False,False,
+government,enforcement,กรมบังคับคดี,www.led.go.th,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,business-registry,กรมพัฒนาธุรกิจการค้า,www.dbd.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+government,customs,กรมศุลกากร,www.customs.go.th,homepage,True,False,X25519,TLS 1.2,other,False,Apache,True,False,other
+government,customs,กรมศุลกากร,tariffeservice.customs.go.th,no-personal-data,True,False,P-256,TLS 1.2,other,False,other,True,False,other
+government,customs,กรมศุลกากร,registeronline.customs.go.th,public-data,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,customs,กรมศุลกากร,postalbooking.customs.go.th,public-data,True,False,X25519,TLS 1.2,other,False,Apache,True,False,other
+government,payments,กรมบัญชีกลาง,www.cgd.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,pension,กองทุนบำเหน็จบำนาญข้าราชการ,www.gpf.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+government,pension,กองทุนบำเหน็จบำนาญข้าราชการ,mygpf.gpf.or.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+government,pension,กองทุนการออมแห่งชาติ,www.nsf.or.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+government,pension,กองทุนการออมแห่งชาติ,eservice.nsf.or.th,public-data,True,False,X25519,TLS 1.3,other,False,other,True,False,other
+government,pension,กองทุนการออมแห่งชาติ,agent-service.nsf.or.th,staff,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+government,student-loan,กองทุนเงินให้กู้ยืมเพื่อการศึกษา,www.studentloan.or.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+government,education,ทปอ. (TCAS),www.mytcas.com,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,education,ทปอ. (TCAS),student.mytcas.com,public-data,True,True,X25519MLKEM768,TLS 1.3,Fastly,True,not disclosed,True,True,Fastly
+government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,www.obec.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,other,False,nginx,True,True,other
+government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,e-ocs.obec.go.th,public-data,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+government,education,สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน,receipt.obec.go.th,staff,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+government,employment,กรมการจัดหางาน,www.doe.go.th,homepage,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,www.labour.go.th,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,itserver15.labour.go.th,public-data,True,False,X25519,TLS 1.3,other,False,Apache,True,False,other
+government,labour,กรมสวัสดิการและคุ้มครองแรงงาน,eservice.labour.go.th,unclear,True,False,P-256,TLS 1.2,other,False,other,True,False,other
+government,passport,กรมการกงสุล,www.consular.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,passport,กรมการกงสุล,consular.mfa.go.th,homepage-redirect,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,elections,สำนักงานคณะกรรมการการเลือกตั้ง,www.ect.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,digital-id,สำนักงานพัฒนารัฐบาลดิจิทัล,www.dga.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,health,กระทรวงสาธารณสุข,www.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,health,กรมการแพทย์,www.dms.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,IIS,True,True,Imperva
+government,health,กรมควบคุมโรค,ddc.moph.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+government,health,กรมสุขภาพจิต,www.dmh.go.th,homepage,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+government,health,กรมสุขภาพจิต,dmh.go.th,homepage-redirect,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+government,health,สำนักงานคณะกรรมการอาหารและยา,www.fda.moph.go.th,homepage,True,False,X25519,TLS 1.3,other,False,nginx,True,False,other
+government,justice,กรมสอบสวนคดีพิเศษ,www.dsi.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,nginx,True,True,Imperva
+government,justice,กรมราชทัณฑ์,www.correct.go.th,homepage,False,False,,,-,False,not disclosed,False,False,
+government,lottery,สำนักงานสลากกินแบ่งรัฐบาล,www.glo.or.th,homepage,True,False,X25519,TLS 1.3,other,False,not disclosed,True,False,other
+government,finance-ministry,กระทรวงการคลัง,www.mof.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+government,utility,การไฟฟ้านครหลวง,www.mea.or.th,homepage,True,False,P-256,TLS 1.2,other,False,not disclosed,True,False,other
+government,utility,การไฟฟ้าส่วนภูมิภาค,www.pea.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+government,utility,การไฟฟ้าส่วนภูมิภาค,eservice.pea.co.th,no-personal-data,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+government,utility,การไฟฟ้าส่วนภูมิภาค,sabuyservice.pea.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,CloudFront,True,not disclosed,True,True,CloudFront
+government,utility,การประปานครหลวง,www.mwa.co.th,homepage,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+government,utility,การประปานครหลวง,eservicesapp.mwa.co.th,public-data,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,not disclosed,True,True,Imperva
+government,utility,การประปานครหลวง,eservices.mwa.co.th,public-data,False,False,,,-,False,not disclosed,False,False,
+government,utility,การประปาส่วนภูมิภาค,www.pwa.co.th,homepage,True,False,X25519,TLS 1.3,other,False,IIS,True,False,other
+government,utility,การประปาส่วนภูมิภาค,eprocurement.pwa.co.th,b2b,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+government,utility,การประปาส่วนภูมิภาค,eservice.pwa.co.th,public-data,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+government,utility,การประปาส่วนภูมิภาค,register.pwa.co.th,public-data,True,False,X25519,TLS 1.2,other,False,nginx,True,False,other
+government,utility,การประปาส่วนภูมิภาค,intranet.pwa.co.th,staff,False,False,,,-,False,not disclosed,False,False,
+government,utility,การประปาส่วนภูมิภาค,working.pwa.co.th,staff,False,False,,,-,False,not disclosed,False,False,
+government,utility,การประปาส่วนภูมิภาค,customer-application.pwa.co.th,public-data,True,False,P-256,TLS 1.2,other,False,Apache,True,False,other
+government,post,ไปรษณีย์ไทย,www.thailandpost.co.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+regulator,regulator,สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล,www.pdpc.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+regulator,regulator,สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ,www.ncsa.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+regulator,regulator,ธนาคารแห่งประเทศไทย,www.bot.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,Akamai
+regulator,regulator,สำนักงาน ก.ล.ต.,www.sec.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Akamai,True,not disclosed,True,True,other
+regulator,regulator,สำนักงาน คปภ.,www.oic.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Imperva,True,IIS,True,True,Imperva
+regulator,regulator,สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์,www.etda.or.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+regulator,regulator,สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์,eservice.etda.or.th,b2b,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare
+regulator,regulator,สำนักงาน กสทช.,www.nbtc.go.th,homepage,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,True,other,True,True,Cloudflare

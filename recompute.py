@@ -55,3 +55,34 @@ withs = [r for r in A if int(r["service_hosts"])]
 allpq = [r["app"] for r in withs if r["service_pq"] == r["service_hosts"]]
 nopq = [r["app"] for r in withs if r["service_pq"] == "0"]
 print(f"APPS with service hosts: {len(withs)} | all-PQ {len(allpq)} {allpq} | none-PQ {len(nopq)} {nopq} | mixed {len(withs) - len(allpq) - len(nopq)}")
+
+# ---- Section 4.2: classical hosts outside a CDN by TLS version and server family ----
+nc = [r for r in web if r["cdn_nt"] != "True" and r["pq_nt"] != "True"]
+print(f"\nNON-CDN classical {len(nc)} | TLS 1.3 {sum(r['tls_nt'] == 'TLS 1.3' for r in nc)} | TLS 1.2 {sum(r['tls_nt'] == 'TLS 1.2' for r in nc)}")
+for fam in ["nginx", "Apache", "IIS", "other", "not disclosed"]:
+    s = [r for r in nc if r["server_family_nt"] == fam]
+    print(f"   {fam:14} TLS 1.3 {sum(r['tls_nt'] == 'TLS 1.3' for r in s):3} | TLS 1.2 {sum(r['tls_nt'] == 'TLS 1.2' for r in s):3}")
+
+# ---- Section 4.3: Wilson intervals and the matched within-organisation comparison ----
+import math, collections
+
+
+def wilson(k, n, z=1.959964):
+    p = k / n; d = 1 + z * z / n; c = (p + z * z / (2 * n)) / d
+    h = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
+    return f"{k}/{n} ({100 * k / n:.1f}%, 95% CI {100 * (c - h):.1f}-{100 * (c + h):.1f})"
+
+
+print("\nWilson: homepages", wilson(sum(r["pq_nt"] == "True" for r in home), len(home)),
+      "| personal-data", wilson(sum(r["pq_nt"] == "True" for r in db), len(db)))
+for lab, f in [("CDN-fronted", lambda r: r["cdn_nt"] == "True"), ("other", lambda r: r["cdn_nt"] != "True")]:
+    h = [r for r in home if f(r)]; d = [r for r in db if f(r)]
+    print(f"   {lab:12} homepages {wilson(sum(r['pq_nt'] == 'True' for r in h), len(h))} | personal-data {wilson(sum(r['pq_nt'] == 'True' for r in d), len(d))}")
+H = collections.defaultdict(list); D = collections.defaultdict(list)
+for r in home:
+    H[r["org"]].append(r["pq_nt"] == "True")
+for r in db:
+    D[r["org"]].append(r["pq_nt"] == "True")
+cell = collections.Counter((any(H[o]), any(D[o])) for o in D if o in H)
+print(f"MATCHED organisations {sum(cell.values())}: both PQ {cell[(True, True)]} | both classical {cell[(False, False)]} | "
+      f"homepage only {cell[(True, False)]} | data endpoint only {cell[(False, True)]}")

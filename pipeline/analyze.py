@@ -28,7 +28,8 @@ for e in eps:
     r = scan.get((e['sector'], e['host']))
     if not r: continue
     if 'worldoftanks' in e['host'] or e['org']=='Mission Hospital Phuket': continue  # listed domain now redirects to a game ad (expired domain)
-    status = 'unreachable' if (r.get('dns_err') or not r['default_ok']) else ('PQ' if r['pq_only_ok'] else 'classical')
+    # PQ = hybrid group negotiated under the browser-like offer (the paper's metric), not mere support (pq_only_ok)
+    status = 'unreachable' if (r.get('dns_err') or not r['default_ok']) else ('PQ' if r.get('default_curve') == 'X25519MLKEM768' else 'classical')
     prov, n, name = provider(r) if status != 'unreachable' else ('-', '', '')
     recs.append(dict(e, status=status, provider=prov, asn=n, as_name=name, kx=r.get('default_curve', ''), tls=r.get('tls_version', '')))
 with open('results_20260926.csv', 'w', newline='', encoding='utf-8') as f:

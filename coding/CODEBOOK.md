@@ -26,5 +26,5 @@
 - **A foreign-branch system that serves customers abroad** (e.g. Bank of America US, Taiwanese, Japanese or Indian portals) → code it as usual, but write `foreign` in `note`. These will be excluded from the Thai figures.
 - The same host appears twice (e.g. generali.co.th and www.generali.co.th) → code both rows the same. This is a duplicate in the frame and will be deduplicated later.
 
-## Why code by hand
-The script tags hosts from keywords, which is noisy (vehicle booking and statistics pages got counted). The paper's headline numbers come from these rows, so they must be checked by a human. I (Claude) will code the same rows **separately** in another file, without seeing yours. Then we compare the two sets of codes and compute an agreement score (Cohen's κ). Reviewers trust a coding more when two coders agree on it.
+## How the codes were produced
+The script tags hosts from keywords, which is noisy (vehicle booking and statistics pages got counted), so every candidate was classified against this codebook. The operative codes were assigned by an AI model (Claude, Anthropic) from each candidate's URL, anchor text, and the title and form fields of the fetched page. The first author independently coded a stratified random sample of 30 Thai-facing candidates without seeing the model's codes; agreement (Cohen's κ) and the adjudication of disagreements are reported in the paper.

@@ -10,7 +10,7 @@ The study measures whether the web endpoints of 288 Thai banks, insurers, hospit
 python3 recompute.py
 ```
 
-This prints every headline figure in Sections 4.1–4.3 of the paper from the released data. It needs Python 3 and no extra packages.
+This prints the headline figures of Sections 4.1–4.4 from the released data, including the server-software breakdown, Wilson intervals and the matched within-organisation comparison. It needs Python 3 and no extra packages.
 
 ## Contents
 
@@ -18,11 +18,11 @@ This prints every headline figure in Sections 4.1–4.3 of the paper from the re
 |---|---|
 | `scanner/pqscan.go` | Go 1.25 `crypto/tls` scanner. It runs a PQ-only probe, a browser-like probe (X25519MLKEM768, X25519, P-256, P-384) and one `HEAD` request per host. Build with `go build`. `controls.csv` lists the six control hosts. |
 | `pipeline/discover.py` | Finds candidate personal-data endpoints by keyword-matching links on each organisation's homepage. |
-| `pipeline/analyze.py` | Attributes each host to a TLS-terminating CDN by origin ASN and response headers. |
+| `pipeline/analyze.py` | Attributes each host to a TLS-terminating CDN by origin ASN and response headers. It documents the method but cannot be run here, because its raw scan inputs contain withheld hostnames. |
 | `pipeline/extract_hosts.py` | Static hostname extraction from Android packages, with signer verification via `apksigner`. |
 | `frame/frame.csv` | The sampling frame: 288 organisations with their homepage hosts and the list each came from. |
 | `coding/CODEBOOK.md`, `CODEBOOK_TH.md` | Codebook for classifying candidate endpoints (English and Thai). |
-| `coding/endpoint_codes.csv` | Hand codes for the 93 candidate endpoints. |
+| `coding/endpoint_codes.csv` | Codes for the 93 candidate endpoints, assigned by an AI model applying the codebook and checked on a blind human-coded sample (see the paper, Section 3.2). |
 | `data/web_hosts.csv` | Per-host results for all web hosts at both vantage points. |
 | `data/app_aggregates.csv` | Per-app counts of service and content hosts and how many negotiated PQ. |
 | `data/app_unique_host_totals.csv` | App-host totals counting each host once, even if several apps reference it. The paper's app figures use this file. |
@@ -33,6 +33,7 @@ This prints every headline figure in Sections 4.1–4.3 of the paper from the re
 - `pq_*`: whether X25519MLKEM768 was negotiated under the browser-like offer.
 - `kx_nt`: the group that was negotiated.
 - `cdn_nt`: whether the host sits behind a TLS-terminating CDN (Cloudflare, Akamai, Imperva, Fastly or CloudFront).
+- `server_family_nt`: server software named in the HTTP `Server` header (nginx, Apache, IIS, other, or not disclosed). Self-reported and unverified.
 
 ## What is not released, and why
 
