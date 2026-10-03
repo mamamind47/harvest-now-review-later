@@ -86,3 +86,14 @@ for r in db:
 cell = collections.Counter((any(H[o]), any(D[o])) for o in D if o in H)
 print(f"MATCHED organisations {sum(cell.values())}: both PQ {cell[(True, True)]} | both classical {cell[(False, False)]} | "
       f"homepage only {cell[(True, False)]} | data endpoint only {cell[(False, True)]}")
+
+# ---- Section 4.5: popular-host (CrUX) sample ----
+C = [r for r in csv.DictReader(open("data/popular_hosts.csv", encoding="utf-8")) if r["reachable"] == "True"]
+EDGE5 = {"Cloudflare", "Akamai", "Imperva", "Fastly", "CloudFront"}
+pk = lambda s: sum(r["pq"] == "True" for r in s)
+cc = [r for r in C if r["provider"] in EDGE5]; oo = [r for r in C if r["provider"] not in EDGE5]
+print(f"\nPOPULAR reachable {len(C)} | CDN {pk(cc)}/{len(cc)} | other {pk(oo)}/{len(oo)}")
+for name, f in [("consensus", lambda r: r["code_claude"] if r["code_claude"] == r["code_codex"] else None),
+                ("claude", lambda r: r["code_claude"]), ("codex", lambda r: r["code_codex"])]:
+    pd = [r for r in C if f(r) in ("P", "I")]; ii = [r for r in C if f(r) == "I"]
+    print(f"   {name:9} personal-data (P+I) {pk(pd)}/{len(pd)} | institutional (I) {pk(ii)}/{len(ii)}")
