@@ -22,7 +22,7 @@ This prints the headline figures of Sections 4.1–4.5 from the released data, i
 | `pipeline/extract_hosts.py` | Static hostname extraction from Android packages, with signer verification via `apksigner`. |
 | `frame/frame.csv` | The sampling frame: 288 organisations with their homepage hosts and the list each came from. |
 | `coding/CODEBOOK.md`, `CODEBOOK_TH.md` | Codebook for classifying candidate endpoints (English and Thai). |
-| `coding/endpoint_codes.csv` | Codes for the 93 candidate endpoints, assigned by a single AI model applying the codebook, without human checking (see the paper, Section 3.2). |
+| `coding/endpoint_codes.csv` | Codes for the 93 candidate endpoints, assigned by an AI model applying the codebook and spot-checked informally by the first author (see the paper, Section 3.2). |
 | `data/web_hosts.csv` | Per-host results for all web hosts at both vantage points. |
 | `data/app_aggregates.csv` | Per-app counts of service and content hosts and how many negotiated PQ. |
 | `data/app_unique_host_totals.csv` | App-host totals counting each host once, even if several apps reference it. The paper's app figures use this file. |

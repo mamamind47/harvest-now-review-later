@@ -1,5 +1,0 @@
-human sample: 48 | answered directly 20 | derived by codebook rule from Han's description or login URL 28
-human vs Claude    n=48: six-code agreement 64.6% kappa 0.54 | personal-data (P+I) vs other 77.1% kappa 0.54
-human vs Codex     n=48: six-code agreement 72.9% kappa 0.65 | personal-data (P+I) vs other 83.3% kappa 0.67
-human vs consensus n=42: six-code agreement 73.8% kappa 0.65 | personal-data (P+I) vs other 83.3% kappa 0.67
-disagreements with consensus (human, AI): [(('I', 'S'), 2), (('P', 'N'), 2), (('P', 'I'), 1), (('B', 'S'), 1), (('N', 'P'), 1), (('P', 'B'), 1), (('X', 'S'), 1), (('S', 'X'), 1), (('N', 'I'), 1)]
