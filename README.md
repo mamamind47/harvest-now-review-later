@@ -26,7 +26,7 @@ This prints the headline figures of Sections 4.1–4.5 from the released data, i
 | `data/web_hosts.csv` | Per-host results for all web hosts at both vantage points. |
 | `data/app_aggregates.csv` | Per-app counts of service and content hosts and how many negotiated PQ. |
 | `data/app_unique_host_totals.csv` | App-host totals counting each host once, even if several apps reference it. The paper's app figures use this file. |
-| `data/popular_hosts.csv` | Usage-weighted sample: 1,105 popular Thai hosts from the Chrome UX Report (Thailand, August 2026; top 10,000, .th or frame-organisation domains), scanned 3 October 2026, with CDN attribution and the role and sector codes of two independent AI coders (`coding/AI_CODING_INSTRUCTIONS.md`). Bank hosts appear as `bank-crux-NN`. |
+| `data/popular_hosts.csv` | CrUX-derived popular-host sample: Thailand list, August 2026, top 10,000, `.th` or frame-organisation domains (1,103 unique hosts selected). The file has one row per host reachable on 3 October 2026 (1,040), with CDN attribution and the role and sector codes of two independent AI coders (`coding/AI_CODING_INSTRUCTIONS.md`). Hosts are unweighted. Bank hosts appear as `bank-crux-NN`. |
 
 ### Columns of `data/web_hosts.csv`
 

@@ -83,7 +83,7 @@ bank-crux-19,5000,y,True,True,X25519MLKEM768,TLS 1.3,other,Akamai (edgekey),N,ba
 csso.fwd.co.th,10000,y,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,Cloudflare,P,insurance,P,insurance
 enroll.tsu.ac.th,10000,n,True,True,X25519MLKEM768,TLS 1.3,other,,P,education,P,education
 ess.sesa37.go.th,5000,n,True,False,X25519,TLS 1.3,other,,I,education,I,education
-weather.bangkok.go.th,10000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,Cloudflare,N,gov,N,gov
+weather.bangkok.go.th,1000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,Cloudflare,N,gov,N,gov
 smart.oic.or.th,10000,y,True,True,X25519MLKEM768,TLS 1.3,Imperva,,X,gov,X,gov
 www.cosmenet.in.th,10000,n,True,False,X25519,TLS 1.3,other,,N,media,N,other
 www.cgd.go.th,10000,y,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,,N,gov,N,gov
@@ -127,7 +127,7 @@ bank-crux-10,5000,y,True,False,X25519,TLS 1.3,other,,N,bank,N,bank
 bank-crux-01,5000,y,True,True,X25519MLKEM768,TLS 1.3,Imperva,,N,bank,N,bank
 beta-e-service.ru.ac.th,5000,n,True,False,P-256,TLS 1.2,other,,P,education,S,education
 tbsc.myhr.co.th,10000,n,True,False,X25519,TLS 1.3,other,,S,other,S,other
-member.sf.in.th,10000,n,True,False,P-256,TLS 1.2,other,,X,other,P,other
+member.sf.in.th,5000,n,True,False,P-256,TLS 1.2,other,,X,other,P,other
 ereg.dbd.go.th,10000,y,True,True,X25519MLKEM768,TLS 1.3,Imperva,Imperva,B,gov,B,gov
 www.nacc.go.th,10000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,,N,gov,N,gov
 www.gnjoy.in.th,5000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,,P,other,P,other
@@ -159,7 +159,6 @@ vauto.viriyah.co.th,5000,y,True,True,X25519MLKEM768,TLS 1.3,Imperva,,S,insurance
 paymentweb.payment.mpay.ais.th,5000,n,True,True,X25519MLKEM768,TLS 1.3,other-edge:Azure Front Door,,P,telco,P,finance-other
 studentscms.spu.ac.th,10000,n,True,False,P-384,TLS 1.2,other,,P,education,S,education
 www.muangthai.co.th,5000,y,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,Cloudflare,N,insurance,N,insurance
-weather.bangkok.go.th,10000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,Cloudflare,N,gov,N,gov
 thaimooc.ac.th,10000,n,True,False,X25519,TLS 1.3,other,,P,education,P,education
 ffshop.xdnz.in.th,5000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,,P,ecommerce,P,ecommerce
 student.udru.ac.th,10000,n,True,False,P-256,TLS 1.2,other,,P,education,S,education
@@ -480,7 +479,6 @@ home.sia.co.th,10000,n,True,False,X25519,TLS 1.3,other,,N,other,N,ecommerce
 webmis.tqm.co.th,5000,n,True,False,P-256,TLS 1.2,other,,S,insurance,S,insurance
 e-sis.e-tech.ac.th,5000,n,True,False,P-384,TLS 1.2,other,,P,education,S,education
 www.mea.or.th,10000,y,True,False,P-256,TLS 1.2,other,,N,gov,N,gov
-member.sf.in.th,10000,n,True,False,P-256,TLS 1.2,other,,X,other,P,other
 portal.nhso.go.th,5000,y,True,False,X25519,TLS 1.3,other,,I,gov,I,hospital
 berthongsuk.in.th,10000,n,True,True,X25519MLKEM768,TLS 1.3,Cloudflare,,N,other,N,other
 checkout.lianlianpay.co.th,10000,n,True,False,P-256,TLS 1.2,other,,P,finance-other,P,finance-other
