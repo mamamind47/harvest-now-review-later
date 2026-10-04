@@ -1,6 +1,6 @@
-# Harvest Now, Review Later — replication package
+# Who Gets Post-Quantum TLS? — replication package
 
-Code and data for *Harvest Now, Review Later: Measuring Post-Quantum Protection of Thai Personal Data and What the PDPA Requires* (manuscript, 2026).
+Code and data for *Who Gets Post-Quantum TLS? Measuring Thai Personal-Data and Popular Hosts* (manuscript, 2026).
 
 The study measures whether the web endpoints of 288 Thai banks, insurers, hospitals, government agencies and regulators, and service hosts referenced by 20 banking and government Android apps, negotiate hybrid post-quantum key exchange (X25519MLKEM768) with a browser-like TLS client. Scans were run from two Thai networks: NT fixed broadband on 26 September 2026 and AIS mobile on 27 September 2026.
 
